@@ -1,0 +1,32 @@
+{
+  "name": "fantasy-football-scraper-api",
+  "version": "1.0.0",
+  "description": "Node.js Express API with Puppeteer for headless scraping of fantasy football data",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "fantasy-football",
+    "web-scraper",
+    "puppeteer",
+    "express",
+    "typescript"
+  ],
+  "author": "Aaron Hauthq",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "puppeteer": "^24.15.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.1.0",
+    "@types/puppeteer": "^5.4.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
