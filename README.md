@@ -1,4 +1,4 @@
-# Fantasy Football Headless HTML Fetcher
+# Headless HTML Fetcher
 
 A simple Node.js web service built with Express and Puppeteer that returns fully-rendered HTML from dynamic web pages. Ideal for use with web scraping scripts that require JavaScript execution, such as Google Apps Script projects using CheerioGS.
 
